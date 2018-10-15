@@ -1,0 +1,1 @@
+include ':app', ':base', ':componentbase', ':login', ':share', ':module_user'
