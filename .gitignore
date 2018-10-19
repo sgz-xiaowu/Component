@@ -4,6 +4,7 @@
 /local.properties
 /.idea/workspace.xml
 /.idea/modules.xml
+.idea/misc.xml
 /.idea/libraries
 .DS_Store
 /build
@@ -16,3 +17,4 @@
 /login
 /share
 /module*
+/coupon_view

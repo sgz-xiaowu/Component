@@ -1,1 +1,1 @@
-include ':app', ':base', ':componentbase', ':login', ':share', ':module_user'
+include ':app', ':base', ':componentbase', ':login', ':share', ':module_user', ':coupon_view'
