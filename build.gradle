@@ -2,6 +2,7 @@
 
 buildscript {
     ext.kotlin_version = '1.1.51'
+    ext.juint_version = '4.12'
     repositories {
         google()
         jcenter()
@@ -23,11 +24,23 @@ allprojects {
 }
 
 ext {
+    /*sdk version*/
     compileSdkVersion = 26
     minSdkVersion = 21
     targetSdkVersion = 26
     versionCode = 1
     versionName = "1.0"
+
+    /*support library version*/
+    appcompat_v7_version = '26.0.0-beta1'
+    constraint_version = '1.0.2'
+
+    /*test library version*/
+    juint_version = '4.12'
+    test_runner_version = '0.5'
+    test_espresso_core_version = '2.2.2'
+
+    /*third library version*/
 }
 task clean(type: Delete) {
     delete rootProject.buildDir

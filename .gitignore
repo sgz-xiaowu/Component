@@ -3,13 +3,14 @@
 .gradle
 /local.properties
 /.idea/workspace.xml
+/.idea/modules.xml
 /.idea/libraries
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 
-/component
+/componentbase
 /app
 /base
 /login
